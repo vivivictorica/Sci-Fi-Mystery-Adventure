@@ -1,19 +1,19 @@
 #remember to save and test your code often
 #https://trinket.io/python/e5a03e7cbc
 #https://coding-grace-guide.readthedocs.io/en/latest/guide/lessonplans/beginners-python-text-based-adventure.html
-print("\n THAD'S SCI-FI MYSTERY GAME!")
-print('\n Once you start playing, you will be asked questions throughout the game. You will have two options for each question, and you must enter "1" or "2" to select your answer.')
-print('\n Typing "1" will select the first option, and typing "2" will select the second option.')
+print("\n Traveling in the Tardis!")
+print('\n Are you ready for an adventure with the Doctor? Let's get into the TARDIS - and yes, it's bigger on the inside! - Are you ready!? GERONIMOOOO!')
+print('\n There will be 2 options to continue this adventure. Option 1 will require the entry "1" and Option 2 will require the entry  "2" Let's go! VWORP VWORP VWORP.')
 
 print('\n .........')
 print()
 
 def initial_game():
-    print('You awake in an unfamiliar place. After glancing around, you determine that you are most likely in the cargo deck of a spaceship.')
-    first_q = input('Option 1: Leave the cargo deck through the main door. Option 2: Leave the cargo deck by climbing the ladder to the hatch. ')
+    print('You arrive to an unfamiliar planet. After glancing around, the Doctor confirms you have landed on the archnemesis planet, Skaro. The TARDIS always sends its passengers where they're needed. In the distance you hear, 'EXTERMINATE! A Dalek is heading your way...')
+    first_q = input('Option 1: Leave the Tardis with the Doctor and try to defeat the Dalek. Option 2: Get back in the Tardis and escape. ')
     if first_q == '1':
         def door_game():
-            print('\n You open the main door and enter a dimly lit hallway. There is a being in the shadows that threatens your safety.')
+            print('\n You open the door and there coming out of the shadow is a Dalek. "IDENTIFY! IDENTIFY!.... YOU ARE THE DOCTOR! EXTERMINATE!"')
             door_q = input('Option 1: Attempt to fight the creature. Option 2: Run away towards the stairs.')
             if door_q == '1':
                 print('\n You try to fight, but the creature unfortunetly eats you. END OF GAME.')
