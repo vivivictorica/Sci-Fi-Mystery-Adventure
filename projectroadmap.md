@@ -14,6 +14,6 @@ Second sprint:
 
 
 Third sprint:
-[x] Continue writing code and testing
-[x] Create one PowerPoint slide
-[x] Upload slide
+[pending] Continue writing code and testing
+[pending] Create one PowerPoint slide
+[pending] Upload slide
