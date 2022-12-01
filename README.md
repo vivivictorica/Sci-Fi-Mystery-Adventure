@@ -1,5 +1,4 @@
-# Sci-Fi-Mystery-Adventure
-
+# Tardis-Adventure
 This adventure in the Tardis with the Doctor and your choice of companion will fulfill the Whovian in anyone. Users will be able to make their own path by making a decisions though 2 choices. This adventure is entirely text-based made to work only in Python.
 
 
