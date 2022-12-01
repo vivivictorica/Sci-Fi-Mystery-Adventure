@@ -2,15 +2,16 @@
 #https://trinket.io/python/e5a03e7cbc
 #https://coding-grace-guide.readthedocs.io/en/latest/guide/lessonplans/beginners-python-text-based-adventure.html
 print("\n Traveling in the Tardis!")
-print('\n Are you ready for an adventure with the Doctor? Let's get into the TARDIS - and yes, it's bigger on the inside! - Are you ready!? GERONIMOOOO!')
-print('\n There will be 2 options to continue this adventure. Option 1 will require the entry "1" and Option 2 will require the entry  "2" Let's go! VWORP VWORP VWORP.')
+print("\n Are you ready for an adventure with the Doctor? Let's get into the TARDIS - and yes, it's bigger on the inside! - Are you ready!? GERONIMOOOO!")
+print("\n There will be 2 options to continue this adventure. Option 1 will require the entry '1' and Option 2 will require the entry  '2' Allon-sy! VWORP VWORP VWORP\n")
+
 
 print('\n .........')
 print()
 
 def initial_game():
-    print('You arrive to an unfamiliar planet. After glancing around, the Doctor confirms you have landed on the archnemesis planet, Skaro. The TARDIS always sends its passengers where they're needed. In the distance you hear, 'EXTERMINATE! A Dalek is heading your way...')
-    first_q = input('Option 1: Leave the Tardis with the Doctor and try to defeat the Dalek. Option 2: Get back in the Tardis and escape. ')
+    print("You arrive to an unfamiliar planet. After glancing around, the Doctor confirms you have landed on the archnemesis planet, Skaro. The TARDIS always sends its passengers where they're needed. In the distance you hear, 'EXTERMINATE! A Dalek is heading your way...")
+    first_q = input("Option 1: Leave the Tardis with the Doctor and try to defeat the Dalek. Option 2: Get back in the Tardis and escape.")
     if first_q == '1':
         def door_game():
             print('\n You open the door and there coming out of the shadow is a Dalek. "IDENTIFY! IDENTIFY!.... YOU ARE THE DOCTOR! EXTERMINATE!"')
